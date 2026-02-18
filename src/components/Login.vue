@@ -27,7 +27,7 @@
           <p>Enter your email address and password to access your account.</p>
         </div>
 
-        <form class="login-form" @submit.prevent="handleLogin">
+        <form class="login-form">
           <div class="form-group">
             <label for="email" class="form-label">
               Email Address <span class="required">*</span>
