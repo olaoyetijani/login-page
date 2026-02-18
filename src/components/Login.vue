@@ -1,3 +1,12 @@
+<script setup>
+import { ref } from 'vue'
+
+const email = ref('')
+const password = ref('')
+const rememberMe = ref(false)
+const showPassword = ref(false)
+</script>
+
 <template>
   <main class="login-container">
     <div class="login-image__container">
